@@ -22,13 +22,13 @@ export default function Carousel() {
                     </form>
                     </div>
                     <div className="carousel-item active">
-                        <img src="https://source.unsplash.com/random/900×100/?burger" style={{maxHeight:"500px"}} className="d-block w-100 " alt="..." />
+                        <img src="https://source.unsplash.com/random/900×100/?burger" style={{maxHeight:"500px",objectFit:"cover"}} className="d-block w-100 " alt="..." />
                     </div>
                     <div className="carousel-item">
-                        <img src="https://source.unsplash.com/random/900×100/?pizza" style={{maxHeight:"500px"}} className="d-block w-100 " alt="..." />
+                        <img src="https://source.unsplash.com/random/900×100/?pizza" style={{maxHeight:"500px", objectFit:"cover"}} className="d-block w-100 " alt="..." />
                     </div>
                     <div className="carousel-item">
-                        <img src="https://source.unsplash.com/random/900×100/?rice" className="d-block w-100" style={{maxHeight:"500px"}} alt="..." />
+                        <img src="https://source.unsplash.com/random/900×100/?pasta" className="d-block w-100" style={{maxHeight:"500px",objectFit:"cover"}} alt="..." />
                     </div>
 
 
